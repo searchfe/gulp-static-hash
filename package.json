@@ -1,0 +1,31 @@
+{
+  "name": "gulp-static-manifest",
+  "version": "1.0.0",
+  "description": "Used to write static file hash values to ts file",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/searchfe/gulp-static-manifest.git"
+  },
+  "author": "fanyurong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/searchfe/gulp-static-manifest/issues"
+  },
+  "homepage": "https://github.com/searchfe/gulp-static-manifest#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "merge": "^1.2.1",
+    "plugin-error": "^1.0.1",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
+  }
+}
